@@ -17,7 +17,7 @@
 // That's it — everything else keeps working exactly the same.
 // -----------------------------------------------------------------------
 
-const REAL_API_BASE = "https://waterai.freeapihub.workers.dev/chat?q=";
+const REAL_API_BASE = "https://wormgpt.freeapihub.workers.dev/chat?q=";
 
 export default async function handler(req, res) {
   const q = (req.query && req.query.q) || "";
